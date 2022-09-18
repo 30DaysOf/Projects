@@ -7,7 +7,7 @@ import { astroImageTools } from 'astro-imagetools';
 
 // https://astro.build/config
 export default defineConfig({
-  // base: '.', // Set a path prefix.
+  base: '/', // Set a path prefix.
   site: 'https://in30Days.dev/', // Use to generate your sitemap and canonical URLs in your final build.
   // Important!
   // Only official '@astrojs/*' integrations are currently supported by Astro.
