@@ -1,132 +1,47 @@
+# Adventures in Learning
+
+Site:
+[https://in30days.dev](https://in30days.dev)
+
+Build: 
 [![Github Pages Astro CI](https://github.com/30DaysOf/in30days.dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/30DaysOf/in30days.dev/actions/workflows/deploy.yml)
 
-# Astro Boilerplate with TypeScript and Tailwind CSS [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
-🚀 Astro Boilerplate is starter code for your blog or portfolio based on Astro
-with Tailwind CSS 3.0. ⚡️ Made with Astro, TypeScript, ESLint, Prettier,
-Tailwind CSS.
-
-Clone this project and use it to create your own Astro blog. You can check the
-[Astro templates demo](https://creativedesignsguru.com/demo/astro-boilerplate/).
-
-## Features
-
-A complete Blog feature:
-
-- 🎈 Syntax Highlighting
-- 🤖 SEO friendly with sitemap.xml and robots.txt
-- ⚙️ RSS feed
-- 📖 Pagination
-- 🌈 Include a dark blog theme
-- ⬇️ Markdown
-- 📦 Image lazy loading
-- 💎 Responsive design
-
-Developer experience first:
-
-- 🔥 Astro
-- 🎨 Tailwind CSS with aspect ratio and typography plugin
-- 🎉 TypeScript
-- ✏️ ESLint compatible with .astro files
-- 🛠 Prettier compatible with .astro files
-- 🦊 Husky
-- 🚫 lint-staged
-- 🚨 Commitlint
-- 🔧 One-click deploy on Netlify (or, manual if you prefer)
-
-ESLint with:
-
-- Airbnb styled guide
-- TypeScript compatible
-- Astro compatible
-- Automatically remove unused imports
-- Import sorting
-- Tailwind CSS plugin
-
-### Philosophy
-
-- Minimal code
-- SEO-friendly
-- 🚀 Production-ready
-
-### Requirements
-
-- Node.js and npm
-
-#### Optional
-
-- [nvm](https://github.com/nvm-sh/nvm)
-- [volta](https://volta.sh/)
-
-While Astro-boilerplate should work with the latest Node version, it has been
-tested with the versions in .nvmrc & the bottom of package.json. At current
-writing, that's Node v16.15.1
-
-### Getting started
-
-Run the following command on your local environment:
-
-``` bash
-git clone --depth=1 https://github.com/ixartz/Astro-boilerplate
-cd my-project-name
-npm install
-```
-
-Then, you can run locally in development mode with live reload:
-
-``` bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your favorite browser
-to see your project.
-
-### Deploy to production (manual)
-
-You can create an optimized production build with:
-
-```shell
-npm run build
-```
-
-Now, your blog is ready to be deployed. All generated files are located at
-`dist` folder, which you can deploy the folder to any hosting service you
-prefer.
-
-### Deploy to Netlify
-
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Astro-boilerplate)
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
-| `npm run clean`   | Remove `./dist` folder                       |
-| `npm run lint`    | Run ESLint and report styling error          |
-
-### Contributions
-
-Everyone is welcome to contribute to this project.
-Feel free to open an issue if you have question or found a bug.
-
-### Additional Checks
-
-This README.md was linted with
-[markdownlint](https://github.com/igorshubovych/markdownlint-cli)
-
-### License
-
-Licensed under the MIT License, Copyright © 2022
 
 ---
 
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+Welcome to my **in30days.dev** site. This started off as a place to showcase some of the #30DaysOf projects I had worked on, as a Developer Advocate at Microsoft. 
+
+But it is evolving into two goals:
+ * A place for my **personal** journeys into learning new things with a goal to acquire some level of mastery ont hat topic _in 30 days_.
+ * A sandbox for my exploration of the [Astro framework](https://astro.build) for building static web sites.
+
+---
+
+## 1. Documenting Learning Journeys 
+
+My software development background spans a number of programming languages, network layers and technology stacks, over a span of 20+ years. I consider myself a generalist with an context-driven specialization mindset. 
+
+In other words, I've worked with a sufficiently wide range of technologies and topics to be conversant with best practices and usage. But I also realize that _knowledge_ becomes rusty without _applied usage_ - and there isn't enough time in our lives to be up to date on everything.
+
+Instead, I use active project deliverables or personal #30Days journeys to give myself a _contextual goal and deadline_ to refresh past expertise and acquire new skills on a continuous basis.
+
+I am inspired by Tim Urban's [Life In Weeks](https://waitbutwhy.com/2014/05/life-weeks.html) - which emphasizes that our lifetimes are finite and the _units_ in which we divide that time is key to helping us set and achieve measurable goals to make that life more fulfilling.
+
+Learning something requires more than a week - a month (30 days) feels sufficient to go from basic understanding (core concepts, quickstart) to advanced usage (best practices). 
+
+The purpose of this site is to organize things I've learned (potentially over different periods) into structured #30Days roadmaps for two reasons:
+ - give me a personal milestone in tracking progress
+ - build a reference I can use to recall concepts when needed
+
+
+## 2. Learning Astro
+
+My three primary areas of interest over my career have been _distributed systems_, _mobile & ubiquitous computing_ and _web & cross-platform app development_. Of the three, the web domain moves fastest, with new tools and frameworks emerging on a monthly - if not weekly - basis.
+
+In 2021, the [Rising Stars of JS](https://risingstars.js.org/2021/en#section-ssg) helped me identify emerging frameworks - notably Next.js, Astro, Docusaurus, and Nuxt - that I wanted to build expertise on. And the best way to do this is to have a _concrete project_ to work on.
+
+I've used [Docusaurus](https://docusaurus.io) a great deal recently - and currently plan to rebuild my [personal site](https://nitya.dev) with it, giving me a sandbox for long-term exploration and expertise-building.
+
+I'm using [Astro](https://astro.build) for this site, for the same reason. It gives me a concrete project to go from basic quickstarts to having a sandbox to explore ideas (and document them) with a real-world target.
+
+I have a couple of Next.js and Nuxt.js projects in the works that I hope to reveal later - but enough about motivation. Time to go building. 👩🏽‍💻
